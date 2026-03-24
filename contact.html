@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Jaiclub | Agent Support &amp; Customer Care</title>
+  <meta name="description" content="Contact Jaiclub for agent support, registration help, withdrawal queries and more. Our 24/7 support team is always ready to help Indian users. Contact for agent work opportunities." />
+  <meta name="keywords" content="jaiclub contact, jaiclub agent, jaiclub support, jaiclub agent work, jaiclub customer care, jaiclub india" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Jaiclub" />
+  <link rel="canonical" href="https://example.com/contact.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact Jaiclub | Agent Support & Customer Care" />
+  <meta property="og:description" content="Contact Jaiclub for agent support and customer care. Available 24/7 for Indian users." />
+  <meta property="og:url" content="https://example.com/contact.html" />
+  <meta property="og:site_name" content="Jaiclub" />
+  <meta property="og:image" content="https://example.com/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contact Jaiclub | Agent Support & Customer Care" />
+  <meta name="twitter:description" content="Contact Jaiclub 24/7 support team for all queries and agent work opportunities." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Jaiclub",
+    "url": "https://example.com/contact.html",
+    "description": "Contact Jaiclub for agent support, customer care, and all queries.",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://example.com" },
+        { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://example.com/contact.html" }
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Jaiclub",
+      "url": "https://example.com"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .contact-section { padding: 80px 0; }
+    .contact-intro { max-width: 680px; margin: 0 auto 64px; text-align: center; }
+    .contact-intro h2 { color: var(--text-dark); margin-bottom: 16px; }
+    .contact-intro p { font-size: 17px; }
+    .contact-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 72px; }
+    .contact-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-card);
+      padding: 36px 28px;
+      text-align: center;
+      box-shadow: var(--shadow-soft);
+      transition: all var(--transition);
+    }
+    .contact-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-medium); border-color: rgba(106,13,173,0.2); }
+    .contact-card-icon { font-size: 44px; margin-bottom: 16px; display: block; }
+    .contact-card h3 { color: var(--text-dark); font-size: 18px; margin-bottom: 10px; }
+    .contact-card p { font-size: 14px; color: var(--text-grey); margin-bottom: 20px; }
+    .contact-card .btn { font-size: 14px; padding: 10px 22px; }
+    .agent-section { background: var(--bg-light); border-radius: 24px; padding: 56px 48px; margin-bottom: 72px; }
+    .agent-section-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+    .agent-info h2 { color: var(--text-dark); margin-bottom: 16px; }
+    .agent-info p { font-size: 16px; line-height: 1.8; margin-bottom: 16px; }
+    .agent-benefits { display: flex; flex-direction: column; gap: 14px; margin-top: 24px; }
+    .agent-benefit { display: flex; align-items: center; gap: 12px; }
+    .agent-benefit-icon { width: 36px; height: 36px; background: var(--purple); color: white; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0; }
+    .agent-benefit-text { font-size: 15px; color: var(--text-dark); font-weight: 500; }
+    .form-section-title { color: var(--text-dark); margin-bottom: 28px; font-size: 22px; }
+    .success-msg { display: none; background: rgba(34,197,94,0.1); border: 1px solid var(--green); color: #166534; padding: 14px 20px; border-radius: 10px; font-size: 15px; margin-top: 8px; }
+    .faq-mini { margin-top: 72px; }
+    .faq-mini h2 { color: var(--text-dark); margin-bottom: 32px; text-align: center; }
+    @media (max-width: 768px) {
+      .contact-cards { grid-template-columns: 1fr; }
+      .agent-section { padding: 36px 24px; }
+      .agent-section-inner { grid-template-columns: 1fr; gap: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <img src="placeholder-logo.png" alt="Jaiclub Logo" class="logo-img" onerror="this.style.display='none'" />
+          <span class="logo-text">Jai<span class="logo-accent">club</span></span>
+        </div>
+      </a>
+      <div class="header-actions">
+        <a href="https://example.com" class="btn btn-outline" target="_blank" rel="noopener">Login</a>
+        <a href="https://example.com" class="btn btn-primary" target="_blank" rel="noopener">Register</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="https://example.com" class="btn btn-outline" target="_blank" rel="noopener">Login</a>
+    <a href="https://example.com" class="btn btn-primary" target="_blank" rel="noopener">Register Now</a>
+    <a href="contact.html" class="mobile-agent-link">Contact for Agent Work</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span>›</span>
+        <span>Contact Us</span>
+      </nav>
+      <h1>Contact Jaiclub</h1>
+      <p>We are available 24/7 to help you with any query or concern</p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section">
+    <div class="container">
+
+      <div class="contact-intro fade-up">
+        <h2>How Can We Help You?</h2>
+        <p>Whether you need help with <strong>Jaiclub login</strong>, registration, withdrawal, or want to know about <strong>Jaiclub agent</strong> opportunities — our dedicated support team is always here for you. Reach out through any of the channels below.</p>
+      </div>
+
+      <!-- CONTACT CARDS -->
+      <div class="contact-cards fade-up">
+        <div class="contact-card">
+          <span class="contact-card-icon">💬</span>
+          <h3>Live Chat Support</h3>
+          <p>Get instant help from our support team through live chat. Available 24 hours a day, 7 days a week for all Indian users.</p>
+          <a href="https://example.com" class="btn btn-primary" target="_blank" rel="noopener">Start Chat</a>
+        </div>
+        <div class="contact-card">
+          <span class="contact-card-icon">📧</span>
+          <h3>Email Support</h3>
+          <p>Send us your query via email and our team will respond within 24 hours with a complete and helpful solution.</p>
+          <a href="mailto:support@jaiclub.com" class="btn btn-outline">Send Email</a>
+        </div>
+        <div class="contact-card">
+          <span class="contact-card-icon">👥</span>
+          <h3>Agent Network</h3>
+          <p>Connect with a local Jaiclub agent in your area for personalised help with registration, login, and withdrawals.</p>
+          <a href="#agent-form" class="btn btn-primary">Contact Agent</a>
+        </div>
+      </div>
+
+      <!-- AGENT SECTION -->
+      <div class="agent-section fade-up" id="agent-form">
+        <div class="agent-section-inner">
+          <div class="agent-info">
+            <h2>Become a Jaiclub Agent</h2>
+            <p>The <strong>Jaiclub agent</strong> program is one of the most rewarding income opportunities available for Indian users. As a Jaiclub agent, you act as a local representative, helping users in your area register, login, and use the platform effectively.</p>
+            <p>Agents earn generous commissions for every user they onboard and for the activity those users generate on the platform. The more active your network, the more you earn — with no upper limit on your income potential.</p>
+            <p>Whether you are a student, a homemaker, or a professional looking for additional income, the Jaiclub agent program is open to all. All you need is a smartphone, an active Jaiclub account, and the willingness to help others discover the platform.</p>
+
+            <div class="agent-benefits">
+              <div class="agent-benefit">
+                <div class="agent-benefit-icon">💰</div>
+                <span class="agent-benefit-text">Earn generous commissions on every referral</span>
+              </div>
+              <div class="agent-benefit">
+                <div class="agent-benefit-icon">📱</div>
+                <span class="agent-benefit-text">Work from anywhere using just your smartphone</span>
+              </div>
+              <div class="agent-benefit">
+                <div class="agent-benefit-icon">🕐</div>
+                <span class="agent-benefit-text">Flexible working hours — work at your own pace</span>
+              </div>
+              <div class="agent-benefit">
+                <div class="agent-benefit-icon">🎓</div>
+                <span class="agent-benefit-text">Full training and support provided by Jaiclub</span>
+              </div>
+              <div class="agent-benefit">
+                <div class="agent-benefit-icon">⚡</div>
+                <span class="agent-benefit-text">Weekly commission payouts directly to your account</span>
+              </div>
+              <div class="agent-benefit">
+                <div class="agent-benefit-icon">🌐</div>
+                <span class="agent-benefit-text">Join a growing network of agents across India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="agent-form-wrap">
+            <h3 class="form-section-title">Send Us a Message</h3>
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+              </div>
+              <div class="form-group">
+                <label for="mobile">Mobile Number *</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter your 10-digit mobile number" required />
+              </div>
+              <div class="form-group">
+                <label for="state">State *</label>
+                <select id="state" name="state" required>
+                  <option value="">Select your state</option>
+                  <option>Andhra Pradesh</option>
+                  <option>Bihar</option>
+                  <option>Delhi</option>
+                  <option>Gujarat</option>
+                  <option>Haryana</option>
+                  <option>Karnataka</option>
+                  <option>Kerala</option>
+                  <option>Madhya Pradesh</option>
+                  <option>Maharashtra</option>
+                  <option>Punjab</option>
+                  <option>Rajasthan</option>
+                  <option>Tamil Nadu</option>
+                  <option>Telangana</option>
+                  <option>Uttar Pradesh</option>
+                  <option>West Bengal</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <select id="subject" name="subject" required>
+                  <option value="">Select a subject</option>
+                  <option>Agent Work Inquiry</option>
+                  <option>Registration Help</option>
+                  <option>Login Issue</option>
+                  <option>Withdrawal Query</option>
+                  <option>Bonus Query</option>
+                  <option>General Inquiry</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" placeholder="Describe your query or tell us why you want to become a Jaiclub agent..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full" style="height:48px;font-size:16px;">Send Message</button>
+              <div class="success-msg" id="successMsg">✅ Your message has been sent! Our team will contact you within 24 hours.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT FAQ -->
+      <div class="faq-mini fade-up">
+        <h2>Common Support Questions</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How quickly does Jaiclub support respond?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Jaiclub's live chat support responds within minutes. Email support responds within 24 hours. Our dedicated agent network can provide instant in-person assistance. Support is available 24/7, including on weekends and public holidays.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How do I become a Jaiclub agent?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>To become a <strong>Jaiclub agent</strong>, fill out the contact form above with your details and select "Agent Work Inquiry" as the subject. Our team will reach out to you within 24 hours with complete details about the agent program, commission structure, and how to get started.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>I forgot my Jaiclub password. How do I reset it?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>You can reset your Jaiclub password directly from the <a href="index.html#login">login page</a>. Click "Forgot Password," enter your registered mobile number, and follow the OTP verification steps. If you face any issues, contact our support team and we will assist you immediately.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>My withdrawal is pending. What should I do?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Most Jaiclub withdrawals are processed within 5 minutes. If your withdrawal is pending for more than 30 minutes, please contact our support team via live chat with your account details and transaction ID. Our team will resolve the issue promptly.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How do I report a problem with my Jaiclub account?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>You can report account issues by filling out the contact form above, using our live chat support, or reaching out to a local Jaiclub agent. Please provide your registered mobile number and a detailed description of the issue so our team can assist you quickly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MINI CTA -->
+  <section class="section cta-section" style="padding: 60px 0;">
+    <div class="container">
+      <div class="cta-box fade-up">
+        <div class="cta-badge">🎁 New User Offer</div>
+        <h2>Not Registered Yet?</h2>
+        <p>Join Jaiclub now and get your <strong>₹300 welcome bonus instantly</strong>. Takes less than 2 minutes to register.</p>
+        <div class="cta-buttons">
+          <a href="https://example.com" class="btn btn-white btn-lg" target="_blank" rel="noopener">🚀 Register Now</a>
+          <a href="https://example.com" class="btn btn-outline-white btn-lg" target="_blank" rel="noopener">🔑 Login Now</a>
+        </div>
+        <p class="cta-small">✅ Instant activation &nbsp;|&nbsp; 🔒 100% Secure &nbsp;|&nbsp; ⚡ Fast Withdrawal</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">Jai<span>club</span></a>
+          <p class="footer-desc">Jaiclub is India's trusted online gaming and entertainment platform. Register today and get ₹300 bonus instantly.</p>
+          <a href="contact.html" class="footer-agent-link">Contact for Agent Work →</a>
+        </div>
+        <div class="footer-links-group">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#register">How to Register</a></li>
+            <li><a href="index.html#login">How to Login</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="about.html">About Jaiclub</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms &amp; Conditions</a></li>
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Get Started</h4>
+          <a href="https://example.com" class="btn btn-primary" target="_blank" rel="noopener" style="margin-bottom:12px;display:inline-block;">Register Now</a>
+          <br />
+          <a href="https://example.com" class="btn btn-outline-light" target="_blank" rel="noopener">Login Now</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-legal">This website is for informational purposes only. Please read our <a href="disclaimer.html">Disclaimer</a>, <a href="terms.html">Terms</a>, and <a href="privacy-policy.html">Privacy Policy</a> before using the platform.</p>
+        <p class="footer-copy">&copy; 2025 Jaiclub. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- STICKY CTA -->
+  <div class="sticky-cta" id="stickyCta">
+    <a href="https://example.com" class="btn btn-primary" target="_blank" rel="noopener">🎁 Register & Get ₹300</a>
+    <a href="https://example.com" class="btn btn-outline" target="_blank" rel="noopener">Login</a>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    const form = document.getElementById('contactForm');
+    const successMsg = document.getElementById('successMsg');
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const btn = form.querySelector('button[type="submit"]');
+        btn.textContent = '✅ Message Sent!';
+        btn.disabled = true;
+        btn.style.background = '#22C55E';
+        successMsg.style.display = 'block';
+        setTimeout(() => {
+          btn.textContent = 'Send Message';
+          btn.disabled = false;
+          btn.style.background = '';
+          successMsg.style.display = 'none';
+          form.reset();
+        }, 4000);
+      });
+    }
+  </script>
+</body>
+</html>
